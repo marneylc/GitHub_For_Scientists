@@ -19,7 +19,13 @@ Installation of Git
 
 Lets set up Git.
 
-On windows, go here: http://git-scm.com/ and download the latest version of git for your operating system. Use the installer to get everything up and running. On debian based linux you can just type the following in a terminal.
+On windows, you can go here: http://git-scm.com/ and download the latest version of git for your operating system. Use the installer to get everything up and running. Or you can use a package manager like chocolatey! https://chocolatey.org/install
+
+``` shell
+choco install git.install
+``` 
+
+On debian based linux you can just type the following in a terminal.
 
 ``` shell
 sudo apt-get install git
